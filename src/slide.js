@@ -3,7 +3,6 @@ let currentScroll = window.pageYOffset
 
 const marquee = document.querySelector("div.marquee")
 marquee.innerHTML += marquee.innerHTML
-marquee.innerHTML += marquee.innerHTML
 
 innerTags = marquee.querySelectorAll("div.inner")
 

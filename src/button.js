@@ -15,9 +15,9 @@ menuButton.addEventListener('click', function() {
     menuList.classList.remove('hidden')
     aboutButton.classList.remove('hidden')
     contactButton.classList.remove('hidden')
-    const clear = setInterval(function() {
-      li[countLast--].classList.remove('hidden')}
-      ,300)
+    // const clear = setInterval(function() {
+    //   li[countLast--].classList.remove('hidden')}
+    //   ,300)
     this.innerHTML = 'CLOSE'
   }
   else {
