@@ -1,0 +1,39 @@
+.ticker {
+  position: fixed;
+  height: 1.5em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 100;
+}
+
+.top-ticker {
+  top: 0;
+  left: 1.5em;
+  width: calc(100% + 1.5em); }
+
+.bottom-ticker {
+  bottom: 0;
+  left: 1.5em;
+  width: calc(100% - 3em);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+.left-ticker {
+  width: calc(100vh - 3em);
+  bottom: 1.5em;
+  left: 1.5em;
+  -webkit-transform-origin: 0 100%;
+          transform-origin: 0 100%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg); }
+
+.right-ticker {
+  width: calc(100vh + 3em);
+  bottom: 1.5em;
+  right: 1.5em;
+  -webkit-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg); }

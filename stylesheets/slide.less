@@ -1,0 +1,28 @@
+.marquee {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  transform-origin: 50% 100%;
+  transition: transform 0.25s;
+  z-index: 1;
+}
+
+.marquee .inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  color: white;
+  font-size: 8rem;
+}
+
+.marquee .inner > * {
+  padding: 0 2rem;
+}
+
+.marquee img {
+  width: 3em;
+  height: auto;
+}
